@@ -55,8 +55,6 @@ public class BeerOrderLineDto {
     @Positive
     private Integer orderQuantity;
 
-    @Null
-    private Integer quantityAllocated;
 
     @JsonFormat(shape= JsonFormat.Shape.STRING)
     private BigDecimal price;
